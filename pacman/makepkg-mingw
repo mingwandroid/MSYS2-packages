@@ -93,12 +93,12 @@ for _mingw in ${MINGW_INSTALLS}; do
     ;;
     clang32)
       _msystem=CLANG32
-      _compiler="/${_mingw}/bin/clang.exe"
+      _compiler="/mingw32/bin/clang.exe"
       _toolchain="mingw-w64-i686-clang"
     ;;
     clang64)
       _msystem=CLANG64
-      _compiler="/${_mingw}/bin/clang.exe"
+      _compiler="/mingw64/bin/clang.exe"
       _toolchain="mingw-w64-x86_64-clang"
     ;;
   esac
